@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const guestList = [\"Aman\", \"Nouman\", \"Ayesha\"];\n\nconsole.log(\"Good news! We found a bigger dinner table, so we can invite more people.\");\n\nguestList.unshift(\"Rahat\", \"MANI\"); // Add two new guests to the beginning of the array\nguestList.push(\"Saba\"); // Append a new guest to the end of the array\n\nconsole.log(\"Unfortunately, the new dinner table won't arrive in time for the dinner. We can only invite two people.\");\n\nwhile (guestList.length > 2) {\n  const removedGuest = guestList.pop();\n  console.log(`Sorry, ${removedGuest}, we won't be able to invite you to dinner.`);\n}\n\nguestList.forEach((guest) => {\n  console.log(`Dear ${guest}, you are still invited to dinner!`);\n});\n\nguestList.length = 0; // Remove all elements from the array\n\nconsole.log(`Guest list: ${guestList}`); // should print \"Guest list: []\"\n"],
+  "mappings": ";AAAA,MAAM,YAAY,CAAC,QAAQ,UAAU,QAAQ;AAE7C,QAAQ,IAAI,0EAA0E;AAEtF,UAAU,QAAQ,SAAS,MAAM;AACjC,UAAU,KAAK,MAAM;AAErB,QAAQ,IAAI,yGAAyG;AAErH,OAAO,UAAU,SAAS,GAAG;AAC3B,QAAM,eAAe,UAAU,IAAI;AACnC,UAAQ,IAAI,UAAU,yDAAyD;AACjF;AAEA,UAAU,QAAQ,CAAC,UAAU;AAC3B,UAAQ,IAAI,QAAQ,yCAAyC;AAC/D,CAAC;AAED,UAAU,SAAS;AAEnB,QAAQ,IAAI,eAAe,WAAW;",
+  "names": []
+}

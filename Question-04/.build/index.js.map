@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const famous_person = \"Albert Einstein\";\nconst quote = \"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.\";\nconst message = famous_person + \" once said, \\\"\" + quote + \"\\\"\";\n\nconsole.log(message);\n\n"],
+  "mappings": ";AAAA,MAAM,gBAAgB;AACtB,MAAM,QAAQ;AACd,MAAM,UAAU,gBAAgB,kBAAmB,QAAQ;AAE3D,QAAQ,IAAI,OAAO;",
+  "names": []
+}

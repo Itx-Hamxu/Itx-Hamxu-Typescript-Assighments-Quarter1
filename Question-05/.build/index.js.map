@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const nameWithWhitespace = \"\\t\\n   Hamza Munir   \\n\\t\";\nconsole.log(\"Name with whitespace: \" + nameWithWhitespace);\n\nconst strippedName = nameWithWhitespace.trim();\nconsole.log(\"Stripped name: \" + strippedName);\n"],
+  "mappings": ";AAAA,MAAM,qBAAqB;AAC3B,QAAQ,IAAI,2BAA2B,kBAAkB;AAEzD,MAAM,eAAe,mBAAmB,KAAK;AAC7C,QAAQ,IAAI,oBAAoB,YAAY;",
+  "names": []
+}

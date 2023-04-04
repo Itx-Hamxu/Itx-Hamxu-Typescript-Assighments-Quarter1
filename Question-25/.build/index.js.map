@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["//Here's the code that passes the if test:\nlet alienColor: string = 'green';\n\nif (alienColor === 'green') {\n  console.log(\"Congratulations! You've earned 5 points!\");\n}\n//And here's the code that fails the if test:\nlet alien_color: string = 'red';\n\nif (alien_color === 'green') {\n  console.log(\"Congratulations! You've earned 5 points!\");\n}\n\n\n\n"],
+  "mappings": ";AACA,IAAI,aAAqB;AAEzB,IAAI,eAAe,SAAS;AAC1B,UAAQ,IAAI,0CAA0C;AACxD;AAEA,IAAI,cAAsB;AAE1B,IAAI,gBAAgB,SAAS;AAC3B,UAAQ,IAAI,0CAA0C;AACxD;",
+  "names": []
+}

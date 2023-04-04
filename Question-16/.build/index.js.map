@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const guestList = [\"Rahat\", \"Mani\", \"Ayesha\"];\n\nconsole.log(\"Good news! We found a bigger dinner table, so we can invite more people.\");\n\nguestList.unshift(\"Saba\", \"Aman\"); // Add two new guests to the beginning of the array\nguestList.push(\"Nouman\"); // Append a new guest to the end of the array\n\nfor (let i = 0; i < guestList.length; i++) {\n  console.log(`Dear ${guestList[i]}, you are mesmerizingly invited to dinner!`);\n}\n"],
+  "mappings": ";AAAA,MAAM,YAAY,CAAC,SAAS,QAAQ,QAAQ;AAE5C,QAAQ,IAAI,0EAA0E;AAEtF,UAAU,QAAQ,QAAQ,MAAM;AAChC,UAAU,KAAK,QAAQ;AAEvB,SAAS,IAAI,GAAG,IAAI,UAAU,QAAQ,KAAK;AACzC,UAAQ,IAAI,QAAQ,UAAU,8CAA8C;AAC9E;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let users: string[] = [\"Aman\", \"Ayesha\", \"Rahat\"];\nlet age: number = 30;\n\nif (users.length === 0) {\n  console.log(\"We need to find some users!\");\n} else {\n  if (age < 2) {\n    console.log(\"The person is a baby.\");\n  } else if (age >= 2 && age < 4) {\n    console.log(\"The person is a toddler.\");\n  } else if (age >= 4 && age < 13) {\n    console.log(\"The person is a kid.\");\n  } else if (age >= 13 && age < 20) {\n    console.log(\"The person is a teenager.\");\n  } else if (age >= 20 && age < 65) {\n    console.log(\"The person is an adult.\");\n  } else {\n    console.log(\"The person is an elder.\");\n  }\n\n  users = [];\n  \n  if (users.length === 0) {\n    console.log(\"We need to find some users!\");\n  }\n}\n"],
+  "mappings": ";AAAA,IAAI,QAAkB,CAAC,QAAQ,UAAU,OAAO;AAChD,IAAI,MAAc;AAElB,IAAI,MAAM,WAAW,GAAG;AACtB,UAAQ,IAAI,6BAA6B;AAC3C,OAAO;AACL,MAAI,MAAM,GAAG;AACX,YAAQ,IAAI,uBAAuB;AAAA,EACrC,WAAW,OAAO,KAAK,MAAM,GAAG;AAC9B,YAAQ,IAAI,0BAA0B;AAAA,EACxC,WAAW,OAAO,KAAK,MAAM,IAAI;AAC/B,YAAQ,IAAI,sBAAsB;AAAA,EACpC,WAAW,OAAO,MAAM,MAAM,IAAI;AAChC,YAAQ,IAAI,2BAA2B;AAAA,EACzC,WAAW,OAAO,MAAM,MAAM,IAAI;AAChC,YAAQ,IAAI,yBAAyB;AAAA,EACvC,OAAO;AACL,YAAQ,IAAI,yBAAyB;AAAA,EACvC;AAEA,UAAQ,CAAC;AAET,MAAI,MAAM,WAAW,GAAG;AACtB,YAAQ,IAAI,6BAA6B;AAAA,EAC3C;AACF;",
+  "names": []
+}

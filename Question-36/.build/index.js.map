@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function make_shirt(size: string, message: string) {\n  console.log(\"The shirt size is \" + size + \" and the message printed on it is: \" + message);\n}\n\nmake_shirt(\"L\", \"I love TypeScript!\");\n"],
+  "mappings": ";AAAA,SAAS,WAAW,MAAc,SAAiB;AACjD,UAAQ,IAAI,uBAAuB,OAAO,wCAAwC,OAAO;AAC3F;AAEA,WAAW,KAAK,oBAAoB;",
+  "names": []
+}

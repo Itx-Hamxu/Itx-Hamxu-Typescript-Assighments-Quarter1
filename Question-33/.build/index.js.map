@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (let i = 0; i < numbers.length; i++) {\n  let ordinal_ending: string;\n  if (numbers[i] === 1) {\n    ordinal_ending = \"st\";\n  } else if (numbers[i] === 2) {\n    ordinal_ending = \"nd\";\n  } else if (numbers[i] === 3) {\n    ordinal_ending = \"rd\";\n  } else {\n    ordinal_ending = \"th\";\n  }\n  console.log(numbers[i] + ordinal_ending);\n}\n"],
+  "mappings": ";AAAA,IAAI,UAAoB,CAAC,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,CAAC;AAElD,SAAS,IAAI,GAAG,IAAI,QAAQ,QAAQ,KAAK;AACvC,MAAI;AACJ,MAAI,QAAQ,OAAO,GAAG;AACpB,qBAAiB;AAAA,EACnB,WAAW,QAAQ,OAAO,GAAG;AAC3B,qBAAiB;AAAA,EACnB,WAAW,QAAQ,OAAO,GAAG;AAC3B,qBAAiB;AAAA,EACnB,OAAO;AACL,qBAAiB;AAAA,EACnB;AACA,UAAQ,IAAI,QAAQ,KAAK,cAAc;AACzC;",
+  "names": []
+}

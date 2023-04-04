@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function show_magicians(names: string[]): void {\n  for (let name of names) {\n    console.log(\"The great magician \" + name);\n  }\n}\n\nlet magicians: string[] = [\"Ahmed Ali\", \"Sana Malik\", \"Hassan Abbas\"];\nshow_magicians(magicians);\n"],
+  "mappings": ";AAAA,SAAS,eAAe,OAAuB;AAC7C,WAAS,QAAQ,OAAO;AACtB,YAAQ,IAAI,wBAAwB,IAAI;AAAA,EAC1C;AACF;AAEA,IAAI,YAAsB,CAAC,aAAa,cAAc,cAAc;AACpE,eAAe,SAAS;",
+  "names": []
+}

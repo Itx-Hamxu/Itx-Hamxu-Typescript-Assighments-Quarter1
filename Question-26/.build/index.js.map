@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let alien_color: string = 'red';\n\nif (alien_color === 'red') {\n  console.log(\"The player just earned 5 points for shooting the alien.\");\n} else {\n  console.log(\"The player just earned 10 points.\");\n}\n"],
+  "mappings": ";AAAA,IAAI,cAAsB;AAE1B,IAAI,gBAAgB,OAAO;AACzB,UAAQ,IAAI,yDAAyD;AACvE,OAAO;AACL,UAAQ,IAAI,mCAAmC;AACjD;",
+  "names": []
+}

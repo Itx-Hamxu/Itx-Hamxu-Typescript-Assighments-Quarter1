@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const placesToVisit = [\"Japan\", \"Iceland\", \"Australia\", \"Peru\", \"Egypt\"];\n\nconsole.log(\"Original order:\", placesToVisit);\n\nconst sortedPlaces = [...placesToVisit].sort();\n\nconsole.log(\"Alphabetical order:\", sortedPlaces);\n\nconsole.log(\"Original order:\", placesToVisit);\n\nconst reverseSortedPlaces = [...placesToVisit].sort().reverse();\n\nconsole.log(\"Reverse alphabetical order:\", reverseSortedPlaces);\n\nconsole.log(\"Original order:\", placesToVisit);\n\nplacesToVisit.reverse();\n\nconsole.log(\"Reversed order:\", placesToVisit);\n\nplacesToVisit.reverse();\n\nconsole.log(\"Original order:\", placesToVisit);\n\nconst sortedPlacesAgain = [...placesToVisit].sort();\n\nconsole.log(\"Alphabetical order:\", sortedPlacesAgain);\n\nconst reverseSortedPlacesAgain = [...placesToVisit].sort().reverse();\n\nconsole.log(\"Reverse alphabetical order:\", reverseSortedPlacesAgain);\n"],
+  "mappings": ";AAAA,MAAM,gBAAgB,CAAC,SAAS,WAAW,aAAa,QAAQ,OAAO;AAEvE,QAAQ,IAAI,mBAAmB,aAAa;AAE5C,MAAM,eAAe,CAAC,GAAG,aAAa,EAAE,KAAK;AAE7C,QAAQ,IAAI,uBAAuB,YAAY;AAE/C,QAAQ,IAAI,mBAAmB,aAAa;AAE5C,MAAM,sBAAsB,CAAC,GAAG,aAAa,EAAE,KAAK,EAAE,QAAQ;AAE9D,QAAQ,IAAI,+BAA+B,mBAAmB;AAE9D,QAAQ,IAAI,mBAAmB,aAAa;AAE5C,cAAc,QAAQ;AAEtB,QAAQ,IAAI,mBAAmB,aAAa;AAE5C,cAAc,QAAQ;AAEtB,QAAQ,IAAI,mBAAmB,aAAa;AAE5C,MAAM,oBAAoB,CAAC,GAAG,aAAa,EAAE,KAAK;AAElD,QAAQ,IAAI,uBAAuB,iBAAiB;AAEpD,MAAM,2BAA2B,CAAC,GAAG,aAAa,EAAE,KAAK,EAAE,QAAQ;AAEnE,QAAQ,IAAI,+BAA+B,wBAAwB;",
+  "names": []
+}

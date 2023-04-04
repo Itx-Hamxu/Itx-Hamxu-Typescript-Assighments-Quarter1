@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["console.log(6 + 2); // addition: 6 + 2 = 8\nconsole.log(16 - 8); // subtraction: 16 - 8 = 8\nconsole.log(4 * 2); // multiplication: 4 * 2 = 8\nconsole.log(16 / 2); // division: 16 / 2 = 8\n"],
+  "mappings": ";AAAA,QAAQ,IAAI,IAAI,CAAC;AACjB,QAAQ,IAAI,KAAK,CAAC;AAClB,QAAQ,IAAI,IAAI,CAAC;AACjB,QAAQ,IAAI,KAAK,CAAC;",
+  "names": []
+}

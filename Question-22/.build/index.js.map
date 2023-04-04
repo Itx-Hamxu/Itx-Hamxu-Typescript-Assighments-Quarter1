@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const myArray: string[] = ['apple', 'banana', 'orange'];\n\n// Accessing an index that is out of bounds will cause an array index error\nconsole.log(myArray[3]); // This will produce an array index error\n\n// To fix the error, we need to access a valid index\nconsole.log(myArray[2]); // This will print 'orange'\n"],
+  "mappings": ";AAAA,MAAM,UAAoB,CAAC,SAAS,UAAU,QAAQ;AAGtD,QAAQ,IAAI,QAAQ,EAAE;AAGtB,QAAQ,IAAI,QAAQ,EAAE;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const programmingLanguages: string[] = ['JavaScript', 'Python', 'Java', 'C++', 'Ruby', 'Swift'];\n\nconsole.log('Programming languages:');\nfor (const language of programmingLanguages) {\n  console.log(language);\n}\n"],
+  "mappings": ";AAAA,MAAM,uBAAiC,CAAC,cAAc,UAAU,QAAQ,OAAO,QAAQ,OAAO;AAE9F,QAAQ,IAAI,wBAAwB;AACpC,WAAW,YAAY,sBAAsB;AAC3C,UAAQ,IAAI,QAAQ;AACtB;",
+  "names": []
+}

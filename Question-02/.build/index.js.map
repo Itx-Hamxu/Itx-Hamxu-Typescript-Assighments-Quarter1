@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const name: string = \"Hamza Munir\";\nconsole.log(`Lowercase name: ${name.toLowerCase()}`);\nconsole.log(`Uppercase name: ${name.toUpperCase()}`);\nconsole.log(`Title case name: ${name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()}`);\n"],
+  "mappings": ";AAAA,MAAM,OAAe;AACrB,QAAQ,IAAI,mBAAmB,KAAK,YAAY,GAAG;AACnD,QAAQ,IAAI,mBAAmB,KAAK,YAAY,GAAG;AACnD,QAAQ,IAAI,oBAAoB,KAAK,OAAO,CAAC,EAAE,YAAY,IAAI,KAAK,MAAM,CAAC,EAAE,YAAY,GAAG;",
+  "names": []
+}

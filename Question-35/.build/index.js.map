@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let animals: string[] = ['dog', 'cat', 'rabbit'];\n\nfor (let i = 0; i < animals.length; i++) {\n  console.log(\"A \" + animals[i] + \" would make a great pet.\");\n}\n\nconsole.log(\"All of these animals are popular choices as household pets.\");\n"],
+  "mappings": ";AAAA,IAAI,UAAoB,CAAC,OAAO,OAAO,QAAQ;AAE/C,SAAS,IAAI,GAAG,IAAI,QAAQ,QAAQ,KAAK;AACvC,UAAQ,IAAI,OAAO,QAAQ,KAAK,0BAA0B;AAC5D;AAEA,QAAQ,IAAI,6DAA6D;",
+  "names": []
+}

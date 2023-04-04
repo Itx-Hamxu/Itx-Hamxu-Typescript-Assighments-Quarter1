@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const name: string = \"Hamza\";\nconst message: string = `Hello ${name}, would you like to make website by using javascript?`;\nconsole.log(message);\n"],
+  "mappings": ";AAAA,MAAM,OAAe;AACrB,MAAM,UAAkB,SAAS;AACjC,QAAQ,IAAI,OAAO;",
+  "names": []
+}

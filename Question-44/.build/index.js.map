@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function orderSandwich(...items: string[]): void {\n  console.log(\"You ordered a sandwich with:\");\n  for (let item of items) {\n    console.log(\"- \" + item);\n  }\n  console.log(\"Enjoy your sandwich!\");\n}\n\norderSandwich(\"ham\", \"cheese\", \"lettuce\");\norderSandwich(\"turkey\", \"avocado\");\norderSandwich(\"peanut butter\", \"jelly\", \"banana\");\n"],
+  "mappings": ";AAAA,SAAS,iBAAiB,OAAuB;AAC/C,UAAQ,IAAI,8BAA8B;AAC1C,WAAS,QAAQ,OAAO;AACtB,YAAQ,IAAI,OAAO,IAAI;AAAA,EACzB;AACA,UAAQ,IAAI,sBAAsB;AACpC;AAEA,cAAc,OAAO,UAAU,SAAS;AACxC,cAAc,UAAU,SAAS;AACjC,cAAc,iBAAiB,SAAS,QAAQ;",
+  "names": []
+}

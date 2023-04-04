@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function make_shirt(size = \"large\", message = \"I love TypeScript\") {\n  console.log(\"The shirt size is \" + size + \" and the message printed on it is: \" + message);\n}\n\nmake_shirt(); // Large shirt with default message\nmake_shirt(\"medium\"); // Medium shirt with default message\nmake_shirt(\"small\", \"TypeScript is awesome!\"); // Small shirt with custom message\n\n"],
+  "mappings": ";AAAA,SAAS,WAAW,OAAO,SAAS,UAAU,qBAAqB;AACjE,UAAQ,IAAI,uBAAuB,OAAO,wCAAwC,OAAO;AAC3F;AAEA,WAAW;AACX,WAAW,QAAQ;AACnB,WAAW,SAAS,wBAAwB;",
+  "names": []
+}

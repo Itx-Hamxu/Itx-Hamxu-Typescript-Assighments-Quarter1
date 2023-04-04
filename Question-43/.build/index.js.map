@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Magician {\n  name: string;\n}\n\nfunction show_magicians(magicians: Magician[]): void {\n  for (let magician of magicians) {\n    console.log(`The great magician ${magician.name}`);\n  }\n}\n\nfunction make_great(magicians: Magician[]): Magician[] {\n  const great_magicians: Magician[] = [];\n  for (let magician of magicians) {\n    great_magicians.push({ name: `the Great ${magician.name}` });\n  }\n  return great_magicians;\n}\n\nconst magicians: Magician[] = [\n  { name: \"Ahmed Ali\" },\n  { name: \"Sana Malik\" },\n  { name: \"Hassan Abbas\" }\n];\n\nconst great_magicians: Magician[] = make_great([...magicians]);\nshow_magicians(magicians);\nshow_magicians(great_magicians);\n"],
+  "mappings": ";AAIA,SAAS,eAAeA,YAA6B;AACnD,WAAS,YAAYA,YAAW;AAC9B,YAAQ,IAAI,sBAAsB,SAAS,MAAM;AAAA,EACnD;AACF;AAEA,SAAS,WAAWA,YAAmC;AACrD,QAAMC,mBAA8B,CAAC;AACrC,WAAS,YAAYD,YAAW;AAC9B,IAAAC,iBAAgB,KAAK,EAAE,MAAM,aAAa,SAAS,OAAO,CAAC;AAAA,EAC7D;AACA,SAAOA;AACT;AAEA,MAAM,YAAwB;AAAA,EAC5B,EAAE,MAAM,YAAY;AAAA,EACpB,EAAE,MAAM,aAAa;AAAA,EACrB,EAAE,MAAM,eAAe;AACzB;AAEA,MAAM,kBAA8B,WAAW,CAAC,GAAG,SAAS,CAAC;AAC7D,eAAe,SAAS;AACxB,eAAe,eAAe;",
+  "names": ["magicians", "great_magicians"]
+}

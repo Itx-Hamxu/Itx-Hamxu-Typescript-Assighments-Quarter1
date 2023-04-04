@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const quote = \"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.\";\nconst author = \"Albert Einstein\";\n\nconsole.log(`${author} once said, \"${quote}\"`);\n"],
+  "mappings": ";AAAA,MAAM,QAAQ;AACd,MAAM,SAAS;AAEf,QAAQ,IAAI,GAAG,sBAAsB,QAAQ;",
+  "names": []
+}

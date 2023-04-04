@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Car {\n  manufacturer: string;\n  model: string;\n  [key: string]: any;\n}\n\nfunction createCar(manufacturer: string, model: string, ...options: [string, any][]): Car {\n  const car: Car = { manufacturer, model };\n\n  options.forEach(([key, value]) => {\n    car[key] = value;\n  });\n\n  return car;\n}\n\nconst car1 = createCar(\"Toyota\", \"Camry\", [\"color\", \"silver\"], [\"year\", 2022]);\nconsole.log(car1);\n\nconst car2 = createCar(\"Honda\", \"Civic\", [\"color\", \"black\"], [\"transmission\", \"automatic\"], [\"features\", [\"moonroof\", \"backup camera\"]]);\nconsole.log(car2);\n"],
+  "mappings": ";AAMA,SAAS,UAAU,cAAsB,UAAkB,SAA+B;AACxF,QAAM,MAAW,EAAE,cAAc,MAAM;AAEvC,UAAQ,QAAQ,CAAC,CAAC,KAAK,KAAK,MAAM;AAChC,QAAI,OAAO;AAAA,EACb,CAAC;AAED,SAAO;AACT;AAEA,MAAM,OAAO,UAAU,UAAU,SAAS,CAAC,SAAS,QAAQ,GAAG,CAAC,QAAQ,IAAI,CAAC;AAC7E,QAAQ,IAAI,IAAI;AAEhB,MAAM,OAAO,UAAU,SAAS,SAAS,CAAC,SAAS,OAAO,GAAG,CAAC,gBAAgB,WAAW,GAAG,CAAC,YAAY,CAAC,YAAY,eAAe,CAAC,CAAC;AACvI,QAAQ,IAAI,IAAI;",
+  "names": []
+}

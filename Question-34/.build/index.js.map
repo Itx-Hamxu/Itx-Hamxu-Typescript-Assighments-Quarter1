@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let pizzas: string[] = ['Pepperoni', 'Margherita', 'BBQ Chicken'];\n\nfor (let i = 0; i < pizzas.length; i++) {\n  console.log(\"I like \" + pizzas[i] + \" pizza.\");\n}\n\nconsole.log(\"Pizza is one of my favorite foods. I really love pizza!\");\n"],
+  "mappings": ";AAAA,IAAI,SAAmB,CAAC,aAAa,cAAc,aAAa;AAEhE,SAAS,IAAI,GAAG,IAAI,OAAO,QAAQ,KAAK;AACtC,UAAQ,IAAI,YAAY,OAAO,KAAK,SAAS;AAC/C;AAEA,QAAQ,IAAI,yDAAyD;",
+  "names": []
+}

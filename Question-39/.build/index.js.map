@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function cityCountry(city: string, country: string): string {\n  return `${city}, ${country}`;\n}\n\nconsole.log(cityCountry(\"Lahore\", \"Pakistan\"));\nconsole.log(cityCountry(\"New York\", \"USA\"));\nconsole.log(cityCountry(\"Sydney\", \"Australia\"));\n"],
+  "mappings": ";AAAA,SAAS,YAAY,MAAc,SAAyB;AAC1D,SAAO,GAAG,SAAS;AACrB;AAEA,QAAQ,IAAI,YAAY,UAAU,UAAU,CAAC;AAC7C,QAAQ,IAAI,YAAY,YAAY,KAAK,CAAC;AAC1C,QAAQ,IAAI,YAAY,UAAU,WAAW,CAAC;",
+  "names": []
+}

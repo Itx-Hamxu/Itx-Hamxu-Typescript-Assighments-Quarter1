@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["// Concatenate two strings\nconst string1 = \"Pakistan\";\nconst string2 = \"Zindabad\";\nconst result = string1 + \" \" + string2;\nconsole.log(result);\n\n// Store and print person's name\nconst name = \"Hamza Munir\";\nconsole.log(\"Asslam o Alaikum, I am  \" + name);\n"],
+  "mappings": ";AACA,MAAM,UAAU;AAChB,MAAM,UAAU;AAChB,MAAM,SAAS,UAAU,MAAM;AAC/B,QAAQ,IAAI,MAAM;AAGlB,MAAM,OAAO;AACb,QAAQ,IAAI,6BAA6B,IAAI;",
+  "names": []
+}

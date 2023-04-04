@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let guests: string[] = ['Rahat', 'Mani', 'Ayesha', 'Saba', 'Aman', 'Nouman'];\n\nconsole.log(`Guest list: ${guests}`);\nconsole.log(\"I just found out that my new dinner table won't arrive in time for the dinner, and I can only invite two people for dinner.\");\n\nwhile (guests.length > 2) {\n  const guest = guests.pop();\n  console.log(`Sorry ${guest}, I won't be able to invite you to dinner.`);\n}\n\nconsole.log(`Dear ${guests[0]} and ${guests[1]}, you are still invited to dinner.`);\nconsole.log(`Number of people invited to dinner: ${guests.length}`);"],
+  "mappings": ";AAAA,IAAI,SAAmB,CAAC,SAAS,QAAQ,UAAU,QAAQ,QAAQ,QAAQ;AAE3E,QAAQ,IAAI,eAAe,QAAQ;AACnC,QAAQ,IAAI,6HAA6H;AAEzI,OAAO,OAAO,SAAS,GAAG;AACxB,QAAM,QAAQ,OAAO,IAAI;AACzB,UAAQ,IAAI,SAAS,iDAAiD;AACxE;AAEA,QAAQ,IAAI,QAAQ,OAAO,UAAU,OAAO,sCAAsC;AAClF,QAAQ,IAAI,uCAAuC,OAAO,QAAQ;",
+  "names": []
+}

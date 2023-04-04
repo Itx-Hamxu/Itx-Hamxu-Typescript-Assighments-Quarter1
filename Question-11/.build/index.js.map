@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["// Store the names of a few friends in an array called names\nconst names = [\"Hamza\", \"Rahat\", \"Mani\", \"Nouman\"];\n\n// Print each person's name by accessing each element in the list, one at a time\nconsole.log(names[0]); // Hamza\nconsole.log(names[1]); // Rahat\nconsole.log(names[2]); // Mani\nconsole.log(names[3]); // Nouman\n"],
+  "mappings": ";AACA,MAAM,QAAQ,CAAC,SAAS,SAAS,QAAQ,QAAQ;AAGjD,QAAQ,IAAI,MAAM,EAAE;AACpB,QAAQ,IAAI,MAAM,EAAE;AACpB,QAAQ,IAAI,MAAM,EAAE;AACpB,QAAQ,IAAI,MAAM,EAAE;",
+  "names": []
+}

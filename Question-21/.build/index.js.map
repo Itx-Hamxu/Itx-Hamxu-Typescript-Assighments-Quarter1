@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Car {\n  make: string;\n  model: string;\n  year: number;\n}\n\nconst car1: Car = { make: 'Toyota', model: 'Corolla', year: 2022 };\nconst car2: Car = { make: 'Honda', model: 'Civic', year: 2021 };\nconst car3: Car = { make: 'Tesla', model: 'Model 3', year: 2020 };\n\nconsole.log(car1);\nconsole.log(car2);\nconsole.log(car3);\n"],
+  "mappings": ";AAMA,MAAM,OAAY,EAAE,MAAM,UAAU,OAAO,WAAW,MAAM,KAAK;AACjE,MAAM,OAAY,EAAE,MAAM,SAAS,OAAO,SAAS,MAAM,KAAK;AAC9D,MAAM,OAAY,EAAE,MAAM,SAAS,OAAO,WAAW,MAAM,KAAK;AAEhE,QAAQ,IAAI,IAAI;AAChB,QAAQ,IAAI,IAAI;AAChB,QAAQ,IAAI,IAAI;",
+  "names": []
+}

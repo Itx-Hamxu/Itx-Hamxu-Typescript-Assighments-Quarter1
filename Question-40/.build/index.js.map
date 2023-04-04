@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Album {\n  artist: string;\n  title: string;\n  tracks?: number;\n}\n\nfunction make_album(artist: string, title: string, tracks?: number): Album {\n  const album: Album = {\n    artist,\n    title\n  };\n\n  if (tracks) {\n    album.tracks = tracks;\n  }\n\n  return album;\n}\n\nconst album1 = make_album(\"Taylor Swift\", \"Folklore\");\nconst album2 = make_album(\"The Beatles\", \"Abbey Road\", 17);\nconst album3 = make_album(\"Ed Sheeran\", \"\u00F7 (Divide)\", 16);\n\nconsole.log(album1);\nconsole.log(album2);\nconsole.log(album3);\n"],
+  "mappings": ";AAMA,SAAS,WAAW,QAAgB,OAAe,QAAwB;AACzE,QAAM,QAAe;AAAA,IACnB;AAAA,IACA;AAAA,EACF;AAEA,MAAI,QAAQ;AACV,UAAM,SAAS;AAAA,EACjB;AAEA,SAAO;AACT;AAEA,MAAM,SAAS,WAAW,gBAAgB,UAAU;AACpD,MAAM,SAAS,WAAW,eAAe,cAAc,EAAE;AACzD,MAAM,SAAS,WAAW,cAAc,iBAAc,EAAE;AAExD,QAAQ,IAAI,MAAM;AAClB,QAAQ,IAAI,MAAM;AAClB,QAAQ,IAAI,MAAM;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const favoriteNumber: number = 6;\nconsole.log(`My favorite number is ${favoriteNumber}.`);\n"],
+  "mappings": ";AAAA,MAAM,iBAAyB;AAC/B,QAAQ,IAAI,yBAAyB,iBAAiB;",
+  "names": []
+}

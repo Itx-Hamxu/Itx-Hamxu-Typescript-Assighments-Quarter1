@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const people: string[] = ['HAMZA', 'RAHAT', 'MANI', 'NOUMAN'];\n\nconst messages: {[key: string]: string} = {\n  'HAMZA': 'Hey Hamza, how is your day going?',\n  'RAHAT': 'Hi Rahat, hope you have a great day!',\n  'MANI': 'Hello Mani, you are doing amazing!',\n  'NOUMAN': 'Hi Nouman, have a wonderful day!',\n};\n\nfor (const person of people) {\n  console.log(messages[person]);\n}\n"],
+  "mappings": ";AAAA,MAAM,SAAmB,CAAC,SAAS,SAAS,QAAQ,QAAQ;AAE5D,MAAM,WAAoC;AAAA,EACxC,SAAS;AAAA,EACT,SAAS;AAAA,EACT,QAAQ;AAAA,EACR,UAAU;AACZ;AAEA,WAAW,UAAU,QAAQ;AAC3B,UAAQ,IAAI,SAAS,OAAO;AAC9B;",
+  "names": []
+}
